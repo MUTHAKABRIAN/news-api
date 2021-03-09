@@ -72,7 +72,7 @@ A user visiting the news portal Api site will be able to:
 ## Contact Information
 ~ For any inquiries or future git collaborative projects, reach out to:
 
-Email: <a href="mailto:muthakabrian@gmail.com</a>
+Email: <a href="mailto:muthakabrian@gmail.com>muthakabrian@gmail.com </a>
 
 ## LICENSE
 Copyright 2020 Brian Muthaka
