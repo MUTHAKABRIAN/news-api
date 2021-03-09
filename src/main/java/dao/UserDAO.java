@@ -1,31 +1,19 @@
+
 package dao;
 
-import models.Users;
+import models.News;
+import models.User;
 
 import java.util.List;
 
-public interface UsersDAO {
-    List<Users> getAllUsers();
+public interface UserDAO {
 
-    void addUser(Users users);
+    List<User> getAllUsers();
 
-    Users findUserById(int id);
+    void add(User users);
 
-    void updateUser(int departmentId, String position, String role, String name, Users user);
+    User getUserById(int id);
+    User getUserByDepartment(int departmentId);
+    News getUidByNewsPost(int userId);
 
-    void updateUser(Users user, String name, String position, String role, int departmentId);
-
-    void clearAllUsers();
-
-//    static User getUserById(int usersId) {
-//        return null;
-//    }
-
-    Object getAllUser();
-
-//    void add(User users);
-
-    static Users getUserById(int id) {
-        return null;
-    }
 }
