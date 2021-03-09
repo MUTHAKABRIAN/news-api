@@ -1,0 +1,34 @@
+--SET MODE Postgresql;
+--
+--
+--CREATE TABLE IF NOT EXISTS department(
+--id int  PRIMARY KEY auto_increment,
+--userId INTEGER,
+--name VARCHAR,
+--description VARCHAR
+--);
+--
+--CREATE TABLE IF NOT EXISTS users(
+--id int PRIMARY KEY auto_increment,
+--departmentId INTEGER,
+--role VARCHAR,
+--position VARCHAR,
+--name VARCHAR
+--);
+--
+--CREATE TABLE IF NOT EXISTS news (
+--id int  PRIMARY KEY auto_increment,
+--userId INTEGER,
+--departmentId INTEGER,
+--type VARCHAR,
+--content VARCHAR
+--);
+--
+--CREATE TABLE IF NOT EXISTS users_department (
+--id int PRIMARY KEY auto_increment,
+--userId INTEGER,
+--departmentId INTEGER,
+--
+--
+--);
+----CREATE DATABASE news_test WITH TEMPLATE news;

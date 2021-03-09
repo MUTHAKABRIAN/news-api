@@ -6,6 +6,8 @@ plugins {
 group 'com.moringa.news_api'
 version '1.0-SNAPSHOT'
 
+
+mainClassName ='App'
 sourceCompatibility = 1.8
 
 repositories {
@@ -19,6 +21,7 @@ dependencies {
     compile "com.sparkjava:spark-template-handlebars:2.5.5"
     compile group: 'org.postgresql', name: 'postgresql', version: '42.2.2'
     compile group: 'postgresql', name: 'postgresql', version: '9.0-801.jdbc4'
+//    compile group: 'com.h2database', name: 'h2', version: '1.4.191'
     compile 'com.google.code.gson:gson:2.5'
     compile "com.sparkjava:spark-core:2.6.0"
     implementation 'org.junit.jupiter:junit-jupiter-api:5.5.1'
